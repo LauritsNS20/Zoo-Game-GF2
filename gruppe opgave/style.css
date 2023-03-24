@@ -1,0 +1,47 @@
+*{
+    background-color: #2AAA8A;
+    
+}
+
+.wrapper {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 'Dosis', sans-serif;;
+}
+
+.animal{
+    border: 1px solid black;
+    border-radius: 6px;
+    min-height: 2rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    background-color: palegreen;
+}
+
+.foodcontainer{
+    border: 1px solid #2AAA8A;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2AAA8A;
+}
+
+.foodcontainer article{
+    width: 220px;
+    border: 1px solid black;
+    background-color: palegreen;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .foodcontainer article{
+        width: 150px
+    }
+}

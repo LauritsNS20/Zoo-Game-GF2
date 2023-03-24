@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Game</title>
+
+    <!-- INTERNAL -->
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script> 
+    <!-- EXTERNAL -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> 
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Zoo Spil</h1>
+        <section id="point">
+            <h2>Giv dyrene deres mad!</h2>
+            <p>Point: <span id="score">0</span></p>
+        </section>
+
+        <section id="animals">
+            <h3>Dyr</h3>
+            <p class="text">Træk maden hen til dyret</p>
+
+            <div id="leopard" class="animal"data-food="meat">
+                Leopard 🐆
+            </div>
+            <div id="monkey" class="animal"data-food="fruit">
+                Abe 🐒
+            </div>
+            <div id="elephant" class="animal"data-food="elephant" data-food2="fruit">
+                Elefant 🐘
+            </div>
+            <div id="snake" class="animal"data-food="snake">
+                Slange 🐍
+            </div>
+            <div id="bear" class="animal"data-food="bear" data-food2="meat" >
+                Bjørn 🐻
+            </div>
+            <div id="crocodile" class="animal"data-food="meat">
+                krokodille 🐊
+            </div>
+            <div id="eagle" class="animal"data-food="meat" data-food2="snake">
+                Ørn 🦅
+            </div>
+            <div id="big monkey" class="animal"data-food="fruit">
+                Gorilla 🦍
+            </div>
+        </section>
+
+        <section id="food">
+            <h3>Mad</h3>
+
+            <div class="foodcontainer">
+                <article id="f-1" draggable="true"data-food="meat">
+                    Bøf 🥩
+                </article>
+                <article id="f-2" draggable="true"data-food="elephant">
+                    Peanut 🥜
+                </article>
+                <article id="f-3" draggable="true"data-food="fruit" >
+                    Vandmelon 🍉
+                </article>
+                <article id="f-4" draggable="true" data-food="fruit">
+                    Banan 🍌
+                </article>
+                <article id="f-5" draggable="true"data-food="snake">
+                    Rotte 🐀
+                </article>
+                <article id="f-6" draggable="true"data-food="meat">
+                    Kyllingelår 🍗
+                </article>
+                <article id="f-7" draggable="true"data-food="bear">
+                    Fisk 🐟
+                </article>
+                <article id="f-8" draggable="true"data-food="elephant">
+                    Grass 🌿
+                </article>
+                <article id="f-9" draggable="true"data-food="bear">
+                    Honning 🍯 
+                </article>
+                <article id="f-10" draggable="true"data-food="bear">
+                    Menneske kød 🍖
+                </article>
+                <article id="f-11" draggable="true"data-food="fruit">
+                    Vindruer 🍇
+                </article>
+                <article id="f-12" draggable="true"data-food="snake">
+                    Øgle 🦎
+                </article>
+                <article id="f-13" draggable="true"data-food="fruit">
+                    Citron 🍋
+                </article>
+                <article id="f-14" draggable="true"data-food="fruit">
+                    Mango  🥭
+                </article>
+                <article id="f-15" draggable="true"data-food="snake">
+                  Lille fugl 🐦  
+                </article>
+
+            </div>
+            
+        </section>
+    </div>  
+</body>
+</html>
